@@ -1,28 +1,39 @@
-<!DOCTYPE html>
-<html>
+div {
+  border: 20px solid #000; /* this is short hand for setting
+                            the border's width, its type, and color */
+  display: inline-block; /* a way of positioning elements */
+  min-width: 20em; /* the two min styles make the shape */
+  min-height: 25em; /* of the divs oblong*/
+  border-radius: 50%; /* this makes the normally square div round */
+  border-left-color: transparent; /* these remove the color from the left side */
+  border-right-color: transparent; /* the right side */
+  border-bottom-color: transparent; /* and the bottom of the circle */
+}
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>My Little Rainbow</title>
-  </head>
+#red { /* this selects any elements with the red id */
+  border-top-color: red;
+}
 
-  <body><!-- the body element is where everything we will see on the page will go -->
+#orange { /* this selects any elements with the red id */
+  border-top-color: orange;
+}
 
-    <!-- our soon to be beautiful rainbow! -->
-    <div id="red"> <!-- the grandest grandparent div -->
-      <div id="orange">
-        <div id="yellow">
-          <div id="green">
-            <div id="blue">
-              <div id="indigo">
-                <div id="violet"></div> <!-- the grandest child div -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+#yellow { /* this selects any elements with the red id */
+  border-top-color: yellow;
+}
 
-  </body>
+#green { /* this selects any elements with the red id */
+  border-top-color: green;
+}
 
-</html>
+#blue { /* this selects any elements with the red id */
+  border-top-color: blue;
+}
+
+#indigo { /* this selects any elements with the red id */
+  border-top-color: indigo;
+}
+
+#violet { /* this selects any elements with the red id */
+  border-top-color: violet;
+}
